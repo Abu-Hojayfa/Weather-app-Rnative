@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "This is a cool Weather Application. You can get current, daily, and hourly weather reports from here. ",
+    "githubUrl": "https://github.com/Abu-Hojayfa/Weather-app-Rnative"
   }
 }

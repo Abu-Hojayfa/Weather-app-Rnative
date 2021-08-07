@@ -57,7 +57,7 @@ const WeatherApp = () => {
               </Text>
               <Image
                 style={tailwind("w-80 ml-8 mt-10 h-48")}
-                source={require("../assets/404.gif")}
+                source={require("../../assets/404.gif")}
               />
               <Text style={tailwind("ml-20 pt-10 text-xl text-red-600")}>
                 Error:
@@ -66,23 +66,14 @@ const WeatherApp = () => {
             </View>
           ) : (
             <View style={tailwind("pt-32")}>
-              <Text
-                style={tailwind(
-                  "pl-20 text-blue-500 font-semibold text-2xl pb-16"
-                )}
-              >
-                {" "}
-                Hello! Please Wait...
-              </Text>
-
               <Image
                 style={tailwind("w-80 ml-8 h-80 border rounded-full")}
-                source={require("../assets/weatherLoad.gif")}
+                source={require("../../assets/weatherLoad.gif")}
               />
 
               <Image
                 style={tailwind("ml-12")}
-                source={require("../assets/loadingTypo.gif")}
+                source={require("../../assets/loadingTypo.gif")}
               />
             </View>
           )}
